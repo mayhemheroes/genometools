@@ -1,0 +1,6 @@
+project: rnshah9/genometools
+target: gt
+
+cmds:
+  - cmd: /repo/bin/gt bed_to_gff3 @@
+    filepath: /test.bed
