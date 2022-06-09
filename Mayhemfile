@@ -1,6 +1,6 @@
-project: rnshah9/genometools
+project: genometools
 target: gt
 
 cmds:
-  - cmd: /repo/bin/gt bed_to_gff3 @@
+  - cmd: /repo/bin/gt bed_to_gff3 /test.bed
     filepath: /test.bed
