@@ -2,5 +2,4 @@ project: genometools
 target: gt
 
 cmds:
-  - cmd: /repo/bin/gt bed_to_gff3 /test.bed
-    filepath: /test.bed
+  - cmd: /repo/bin/gtbed_to_gff3 @@
