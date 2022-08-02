@@ -1,5 +1,7 @@
 project: genometools
 target: gt
+testsuite:
+  - file://testdata/bed_files/ct_example1.bed
 
 cmds:
   - cmd: /repo/bin/gt bed_to_gff3 @@
