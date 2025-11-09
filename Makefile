@@ -852,6 +852,8 @@ obj/%.o: %.cpp
 	$(V_DO)$(CXX) -c $< -o $(@:.o=.d) $(EXP_CPPFLAGS) $(GT_CPPFLAGS) -MM -MP \
 	  -MT $@
 
+obj/src/core/option.o: obj/gt_config.h
+obj/src/core/version.o: obj/gt_config.h
 obj/src/core/versionfunc.o: obj/gt_config.h
 
 # read dependencies
