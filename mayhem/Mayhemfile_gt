@@ -1,0 +1,7 @@
+project: genometools
+target: gt
+testsuite:
+  - file:///mayhem/testdata/bed_files/ct_example1.bed
+
+cmds:
+  - cmd: /mayhem/bin/gt bed_to_gff3 @@
