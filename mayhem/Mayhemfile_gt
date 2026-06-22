@@ -1,0 +1,8 @@
+project: genometools
+target: gt
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gt/testsuite
+
+cmds:
+  - cmd: /mayhem/bin/gt bed_to_gff3 @@
